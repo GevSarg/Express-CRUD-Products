@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #ff6ec4, #7873f5);
+        font-family: "Arial", sans-serif;
+      }
+
+      .login-container {
+        background: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      h2 {
+        margin-bottom: 30px;
+        color: #7873f5;
+      }
+
+      .login-container input[type="email"],
+      .login-container input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+        outline: none;
+      }
+
+      .login-container input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+        background: #ff6ec4;
+        border: none;
+        border-radius: 10px;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      .login-container input[type="submit"]:hover {
+        background: #7873f5;
+      }
+
+      .login-container input[type="submit"]:active {
+        background: #5b53cc;
+      }
+
+      .login-container p {
+        margin-top: 20px;
+        color: #666;
+      }
+
+      .login-container p a {
+        color: #ff6ec4;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .login-container p a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form action="#" method="POST">
+        <input type="email" name="email" placeholder="Email" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+    <script>
+      //   const form = document.querySelector("form");
+
+      //   form.addEventListener("submit", (e) => {
+      //     e.preventDefault();
+      //     const email = form.email.value;
+      //     const password = form.password.value;
+
+      //     const users = res.
+      //   });
+    </script>
+  </body>
+</html>

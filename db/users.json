@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Անահիտ",
+    "email": "anahit@gmail.com",
+    "age": 20,
+    "password": "Anahit20"
+  },
+  {
+    "id": 2,
+    "name": "Անուշ",
+    "email": "anush@yahoo.com",
+    "age": 24,
+    "password": "Anush24"
+  },
+  {
+    "id": 3,
+    "name": "Տիգրան",
+    "email": "tigran@hotmail.com",
+    "age": 20,
+    "password": "Tigran20"
+  },
+  {
+    "id": 4,
+    "name": "Մարիա",
+    "email": "maria@outlook.com",
+    "age": 27,
+    "password": "Maria27"
+  },
+  {
+    "id": 5,
+    "name": "Արամ",
+    "email": "aram@hotmail.com",
+    "age": 29,
+    "password": "Aram29"
+  },
+  {
+    "id": 6,
+    "name": "Նարե",
+    "email": "nare@gmail.com",
+    "age": 15,
+    "password": "Nare15"
+  },
+  {
+    "id": 7,
+    "name": "Գևորգ",
+    "email": "gevorg@yahoo.com",
+    "age": 31,
+    "password": "Gevorg31"
+  },
+  {
+    "id": 8,
+    "name": "Սոֆիա",
+    "email": "sofia@gmail.com",
+    "age": 28,
+    "password": "Sofia28"
+  },
+  {
+    "id": 9,
+    "name": "Վարդան",
+    "email": "vardan@outlook.com",
+    "age": 16,
+    "password": "Vardan16"
+  },
+  {
+    "id": 10,
+    "name": "Արսեն",
+    "email": "arsen@outlook.com",
+    "age": 16,
+    "password": "Arsen16"
+  }
+]
