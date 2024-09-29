@@ -5,12 +5,12 @@ function sortProducts(req, res, next) {
   if (!products) {
     return res.status(422).json({ msg: "No products available" });
   }
-
+  let sorted;
   if (sort) {
     if (sort === "low") {
-      products.sort((a, b) => a.price - b.price);
+      sorted = products.toSorted((a, b) => a.price - b.price);
     } else if (sort === "high") {
-      products.sort((a, b) => b.price - a.price);
+      sorted = products.toSorted((a, b) => b.price - a.price);
     } else {
       return res
         .status(422)
@@ -18,7 +18,7 @@ function sortProducts(req, res, next) {
     }
   }
 
-  res.locals.sortedProducts = products;
+  res.locals.sortedProducts = sorted;
   next();
 }
 
